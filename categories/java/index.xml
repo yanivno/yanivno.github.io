@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on ParsingWings</title>
+    <link>/categories/java/</link>
+    <description>Recent content in Java on ParsingWings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jan 2017 19:47:15 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vRealize Production test tool 1.6.0 fails license check for vRA 7.1 and up</title>
+      <link>/2017/01/09/vrealize-production-test-tool-1-6-0-fails-license-check-for-vra-7-1-and-up/</link>
+      <pubDate>Mon, 09 Jan 2017 19:47:15 +0000</pubDate>
+      
+      <guid>/2017/01/09/vrealize-production-test-tool-1-6-0-fails-license-check-for-vra-7-1-and-up/</guid>
+      <description>Recently at a customer site, whom heavily uses this tool to monitor his environment, since upgrading his vRA 7.0.1 Production system to vRA 7.1, Licensing checks were failing (as illustrated in the image)
+Looking at the logs we did identify an error with licensing check :
+INFO 2016-12-21 09:03:35.489 (LoggingTestListener .onTestStart : 23) Executing test 63/76 ERROR 2016-12-21 09:03:40.349 (AMIClientServiceImpl.getLicenses : 236) com.fasterxml.jackson.databind.JsonMappingException: Can not deserialize instance of com.vmware.vrealize.readiness.vra.model.vami.License[] out of VALUE_NUMBER_INT token at [Source: 21 Dec 2016 09:03:39,005 [com.</description>
+    </item>
+    
+  </channel>
+</rss>

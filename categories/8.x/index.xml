@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8.x on ParsingWings</title>
+    <link>/categories/8.x/</link>
+    <description>Recent content in 8.x on ParsingWings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Dec 2019 17:51:19 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/8.x/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Implementing App Isolation in vRA 8 Cloud Assembly Blueprint</title>
+      <link>/2019/12/12/implementing-app-isolation-in-vra-8-cloud-assembly-blueprint/</link>
+      <pubDate>Thu, 12 Dec 2019 17:51:19 +0000</pubDate>
+      
+      <guid>/2019/12/12/implementing-app-isolation-in-vra-8-cloud-assembly-blueprint/</guid>
+      <description>I will start by saying that as of today (12/12/2019), this process is not yet documented, however it is working as expected.
+Using vRealize Automation 7.x, you might have used App Isolation checkbox in the blueprint settings screen in-order to have a bubble environment (Documentation Link) with outbound connection to corporate network, with you could add DFW rules in NSX to specific destination. In vRealize Automation 8.0 it is gone.</description>
+    </item>
+    
+  </channel>
+</rss>

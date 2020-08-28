@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ParsingWings</title>
+    <link>/</link>
+    <description>Recent content on ParsingWings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jan 2020 15:48:44 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configuring DNS search path for Enterprise PKS Kubernetes Clusters</title>
+      <link>/2020/01/14/configuring-dns-search-path-for-enterprise-pks-kubernetes-clusters/</link>
+      <pubDate>Tue, 14 Jan 2020 15:48:44 +0000</pubDate>
+      
+      <guid>/2020/01/14/configuring-dns-search-path-for-enterprise-pks-kubernetes-clusters/</guid>
+      <description>Often, applications running in Kubernetes requires access to external services to function properly, it could be databases, Identity services (SSO), backend applications running on Virtual Machines, etc.
+When accessing external corporate services or internet services – using DNS names, with current Enterprise PKS configuration, BOSH does not configure search path to allow using short names. for instance, application in Kubernetes would like to access “mssql” service, assuming that corporate DNS is authoritative for “corp.</description>
+    </item>
+    
+    <item>
+      <title>Implementing App Isolation in vRA 8 Cloud Assembly Blueprint</title>
+      <link>/2019/12/12/implementing-app-isolation-in-vra-8-cloud-assembly-blueprint/</link>
+      <pubDate>Thu, 12 Dec 2019 17:51:19 +0000</pubDate>
+      
+      <guid>/2019/12/12/implementing-app-isolation-in-vra-8-cloud-assembly-blueprint/</guid>
+      <description>I will start by saying that as of today (12/12/2019), this process is not yet documented, however it is working as expected.
+Using vRealize Automation 7.x, you might have used App Isolation checkbox in the blueprint settings screen in-order to have a bubble environment (Documentation Link) with outbound connection to corporate network, with you could add DFW rules in NSX to specific destination. In vRealize Automation 8.0 it is gone.</description>
+    </item>
+    
+    <item>
+      <title>vRealize Production test tool 1.6.0 fails license check for vRA 7.1 and up</title>
+      <link>/2017/01/09/vrealize-production-test-tool-1-6-0-fails-license-check-for-vra-7-1-and-up/</link>
+      <pubDate>Mon, 09 Jan 2017 19:47:15 +0000</pubDate>
+      
+      <guid>/2017/01/09/vrealize-production-test-tool-1-6-0-fails-license-check-for-vra-7-1-and-up/</guid>
+      <description>Recently at a customer site, whom heavily uses this tool to monitor his environment, since upgrading his vRA 7.0.1 Production system to vRA 7.1, Licensing checks were failing (as illustrated in the image)
+Looking at the logs we did identify an error with licensing check :
+INFO 2016-12-21 09:03:35.489 (LoggingTestListener .onTestStart : 23) Executing test 63/76 ERROR 2016-12-21 09:03:40.349 (AMIClientServiceImpl.getLicenses : 236) com.fasterxml.jackson.databind.JsonMappingException: Can not deserialize instance of com.vmware.vrealize.readiness.vra.model.vami.License[] out of VALUE_NUMBER_INT token at [Source: 21 Dec 2016 09:03:39,005 [com.</description>
+    </item>
+    
+    <item>
+      <title>vRO Logging Day-2 Operations with Event Log EBS topic</title>
+      <link>/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</link>
+      <pubDate>Tue, 23 Aug 2016 19:00:47 +0000</pubDate>
+      
+      <guid>/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</guid>
+      <description>vRA 7.x EBS is awesome !
+While writing code, one should aspire to be as generic as possible, with simplicity being a key value – since it is not always possible to provide both simultaneously. this principal will meet us coders over-and-over. remember – Keep It Simple, Stupid! (or otherwise, KISS)
+Sticking to this principle, I was trying to think about a generic way to log Day-2 operations in vRA, without being too specific to a type of request or setting up many EBS subscriptions for this customer request.</description>
+    </item>
+    
+    <item>
+      <title>Encrypted vRA custom properties with vRO – Part I</title>
+      <link>/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</link>
+      <pubDate>Sat, 13 Aug 2016 16:35:02 +0000</pubDate>
+      
+      <guid>/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</guid>
+      <description>Recently I came across an Interesting customer request,
+To be able to automate application installation in vRO, while database connection details will be provided by the end-user.
+This being a production system, the requirement was to encrypt details, end-to-end.
+While vRA does encrypt connection to vRO and vice-versa, values provided by end user to an IaaS blueprint are saved as is, plain-text. So to pass an encrypted value to a blueprint we need to encrypt the custom property.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Fri, 12 Aug 2016 11:14:08 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Yaniv Norman, Israel. LinkedIn : https://www.linkedin.com/in/yaniv-norman Employed as a Senior Consultant at VMware in SDDC field – vRealize Automation,
+vRealize Orchestrator, Integration and Custom Development.
+Having spent Several years in Full-Stack development (not-language specific, although I have my favs)
+System Administrator and Customer care.
+_Holding a B.Sc. in Computer Science From Tel-Aviv Academic College, _
+Absolutely love the theoretical side, along with the history of Computing.
+Please feel free to contact me at ynorman@vmware.</description>
+    </item>
+    
+    <item>
+      <title>Home page</title>
+      <link>/home/</link>
+      <pubDate>Fri, 12 Aug 2016 10:32:58 +0000</pubDate>
+      
+      <guid>/home/</guid>
+      <description>This is your front page. Click the ‘edit’ link to change the contents</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>/contact-us/</link>
+      <pubDate>Sat, 02 Jul 2016 17:09:56 +0000</pubDate>
+      
+      <guid>/contact-us/</guid>
+      <description>Hi There,
+We are looking forward to hearing from you. Please feel free to get in touch via the form below, we will get back to you as soon as possible.
+A Great Company Name
+123 Main St,
+Warwick, RI 02889
+718.555.0062</description>
+    </item>
+    
+    <item>
+      <title>Sample Page</title>
+      <link>/sample-page/</link>
+      <pubDate>Sat, 02 Jul 2016 17:04:58 +0000</pubDate>
+      
+      <guid>/sample-page/</guid>
+      <description>This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+ Hi there! I’m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like piña coladas.</description>
+    </item>
+    
+  </channel>
+</rss>

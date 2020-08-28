@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>k8s on ParsingWings</title>
+    <link>/tags/k8s/</link>
+    <description>Recent content in k8s on ParsingWings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jan 2020 15:48:44 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configuring DNS search path for Enterprise PKS Kubernetes Clusters</title>
+      <link>/2020/01/14/configuring-dns-search-path-for-enterprise-pks-kubernetes-clusters/</link>
+      <pubDate>Tue, 14 Jan 2020 15:48:44 +0000</pubDate>
+      
+      <guid>/2020/01/14/configuring-dns-search-path-for-enterprise-pks-kubernetes-clusters/</guid>
+      <description>Often, applications running in Kubernetes requires access to external services to function properly, it could be databases, Identity services (SSO), backend applications running on Virtual Machines, etc.
+When accessing external corporate services or internet services – using DNS names, with current Enterprise PKS configuration, BOSH does not configure search path to allow using short names. for instance, application in Kubernetes would like to access “mssql” service, assuming that corporate DNS is authoritative for “corp.</description>
+    </item>
+    
+  </channel>
+</rss>

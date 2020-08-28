@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>log on ParsingWings</title>
+    <link>/tags/log/</link>
+    <description>Recent content in log on ParsingWings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Aug 2016 19:00:47 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/log/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vRO Logging Day-2 Operations with Event Log EBS topic</title>
+      <link>/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</link>
+      <pubDate>Tue, 23 Aug 2016 19:00:47 +0000</pubDate>
+      
+      <guid>/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</guid>
+      <description>vRA 7.x EBS is awesome !
+While writing code, one should aspire to be as generic as possible, with simplicity being a key value – since it is not always possible to provide both simultaneously. this principal will meet us coders over-and-over. remember – Keep It Simple, Stupid! (or otherwise, KISS)
+Sticking to this principle, I was trying to think about a generic way to log Day-2 operations in vRA, without being too specific to a type of request or setting up many EBS subscriptions for this customer request.</description>
+    </item>
+    
+  </channel>
+</rss>
