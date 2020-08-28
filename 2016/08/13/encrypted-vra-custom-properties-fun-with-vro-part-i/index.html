@@ -13,30 +13,30 @@ To be able to automate application installation in vRO, while database connecti
 <meta name = "twitter:card" content = "summary" />
 <meta name = "twitter:creator" content = "@parsingwings">
 <meta name = "twitter:title" content = "Encrypted vRA custom properties with vRO – Part I" />
-<meta property = "og:url" content = "/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/" />
+<meta property = "og:url" content = "https:///yanivno.github.io/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/" />
 <meta property = "og:title" content = "Encrypted vRA custom properties with vRO – Part I" />
 <meta property = "og:description" content = "Recently I came across an Interesting customer request,
 To be able to automate application installation in vRO, while database connection details will be …" />
-<meta property = "og:image" content = "" />
-<link rel='apple-touch-icon' sizes='180x180' href='icons/apple-touch-icon.png'>
-<link rel='icon' type='image/png' sizes='32x32' href='icons/favicon-32x32.png'>
-<link rel='icon' type='image/png' sizes='16x16' href='icons/favicon-16x16.png'>
-<link rel='manifest' href='icons/site.webmanifest'>
-<link rel="mask-icon" href= 'safari-pinned-tab.svg' color="#002538">
+<meta property = "og:image" content = "https:///yanivno.github.io/" />
+<link rel='apple-touch-icon' sizes='180x180' href='https:///yanivno.github.io/icons/apple-touch-icon.png'>
+<link rel='icon' type='image/png' sizes='32x32' href='https:///yanivno.github.io/icons/favicon-32x32.png'>
+<link rel='icon' type='image/png' sizes='16x16' href='https:///yanivno.github.io/icons/favicon-16x16.png'>
+<link rel='manifest' href='https:///yanivno.github.io/icons/site.webmanifest'>
+<link rel="mask-icon" href= 'https:///yanivno.github.io/safari-pinned-tab.svg' color="#002538">
 <meta name="msapplication-TileColor" content="#002538">
 <meta name="theme-color" content="#002538">
 
-  <link rel='canonical' href='/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/'>
+  <link rel='canonical' href='https:///yanivno.github.io/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/'>
 
     
 
     
-    <link rel="preload" href="/css/styles.8c77cda9454d30afb96a03bf232ee1089eb4b0da2a7c6e7f2b2a09d6cfcf2fe97836d9edfca70365fb630563fff409fd484299df18ca05a2950108d46da3cf1e.css" integrity = "sha512-jHfNqUVNMK&#43;5agO/Iy7hCJ60sNoqfG5/KyoJ1s/PL&#43;l4Ntnt/KcDZftjBWP/9An9SEKZ3xjKBaKVAQjUbaPPHg==" as="style" crossorigin="anonymous">
-    <link rel="preload" href="/js/bundle.c271c92bb008247d7cc2135f44c09741cdb75a5d056d1d311fe3e36dc6544e987efe6e50d8220918d7ace7cc53430a2442e1a6e5d5afd4a7aa33d90ca171f4e2.js" as="script" integrity=
-    "sha512-wnHJK7AIJH18whNfRMCXQc23Wl0FbR0xH&#43;PjbcZUTph&#43;/m5Q2CIJGNes58xTQwokQuGm5dWv1KeqM9kMoXH04g==" crossorigin="anonymous">
+    <link rel="preload" href="https://yanivno.github.io/css/styles.8c77cda9454d30afb96a03bf232ee1089eb4b0da2a7c6e7f2b2a09d6cfcf2fe97836d9edfca70365fb630563fff409fd484299df18ca05a2950108d46da3cf1e.css" integrity = "sha512-jHfNqUVNMK&#43;5agO/Iy7hCJ60sNoqfG5/KyoJ1s/PL&#43;l4Ntnt/KcDZftjBWP/9An9SEKZ3xjKBaKVAQjUbaPPHg==" as="style" crossorigin="anonymous">
+    <link rel="preload" href="https://yanivno.github.io/js/bundle.81d3d9ba5a37bf29c0682aed1a0e5b84f7f74883ac49632ed235343a931d35a16190692a86cf8c104d8a4614eefafa57acd2e1bbb5329cb1b09d3b37689b8bf2.js" as="script" integrity=
+    "sha512-gdPZulo3vynAaCrtGg5bhPf3SIOsSWMu0jU0OpMdNaFhkGkqhs&#43;MEE2KRhTu&#43;vpXrNLhu7UynLGwnTs3aJuL8g==" crossorigin="anonymous">
 
     
-    <link rel="stylesheet" type="text/css" href="/css/styles.8c77cda9454d30afb96a03bf232ee1089eb4b0da2a7c6e7f2b2a09d6cfcf2fe97836d9edfca70365fb630563fff409fd484299df18ca05a2950108d46da3cf1e.css" integrity="sha512-jHfNqUVNMK&#43;5agO/Iy7hCJ60sNoqfG5/KyoJ1s/PL&#43;l4Ntnt/KcDZftjBWP/9An9SEKZ3xjKBaKVAQjUbaPPHg==" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://yanivno.github.io/css/styles.8c77cda9454d30afb96a03bf232ee1089eb4b0da2a7c6e7f2b2a09d6cfcf2fe97836d9edfca70365fb630563fff409fd484299df18ca05a2950108d46da3cf1e.css" integrity="sha512-jHfNqUVNMK&#43;5agO/Iy7hCJ60sNoqfG5/KyoJ1s/PL&#43;l4Ntnt/KcDZftjBWP/9An9SEKZ3xjKBaKVAQjUbaPPHg==" crossorigin="anonymous">
 	  
   </head>
   
@@ -47,7 +47,7 @@ To be able to automate application installation in vRO, while database connecti
 
 <header class = 'nav_header' >
   <nav class = 'nav'>
-    <a href='' class = 'nav_brand nav_item'>
+    <a href='https:///yanivno.github.io/' class = 'nav_brand nav_item'>
         ParsingWings
       <div class = 'nav_close'>
         <div>
@@ -62,16 +62,16 @@ To be able to automate application installation in vRO, while database connecti
     </a>
     <div class = 'nav_body nav_body_'>
       <div class = 'nav_parent'>
-        <a href = '' class = 'nav_item'>Home </a>
+        <a href = 'https:///yanivno.github.io/' class = 'nav_item'>Home </a>
       </div>
       <div class = 'nav_parent'>
-        <a href = '/tags/tkgi/' class = 'nav_item'>TKGI </a>
+        <a href = 'https:///tags/tkgi/' class = 'nav_item'>TKGI </a>
       </div>
       <div class = 'nav_parent'>
-        <a href = '/tags/vra/' class = 'nav_item'>vRA </a>
+        <a href = 'https:///tags/vra/' class = 'nav_item'>vRA </a>
       </div>
       <div class = 'nav_parent'>
-        <a href = '/about/' class = 'nav_item'>About </a>
+        <a href = 'https:///about/' class = 'nav_item'>About </a>
       </div>
 <div class='follow'>
   <a href='https://github.com/yanivno'>
@@ -90,7 +90,7 @@ To be able to automate application installation in vRO, while database connecti
     </svg>
   </a>
   
-  <a href='index.xml'>
+  <a href='https:///yanivno.github.io/index.xml'>
     <svg class="icon">
       <use xlink:href="#rss"></use>
     </svg>
@@ -115,30 +115,30 @@ To be able to automate application installation in vRO, while database connecti
   </svg>
   <span class="post_date">
     Aug 13, 2016</span>
-  <a href = 'tags/encryption' class = 'post_tag button button_translucent'>encryption
+  <a href = 'https:///yanivno.github.io/tags/encryption' class = 'post_tag button button_translucent'>encryption
   </a>
-  <a href = 'tags/vra' class = 'post_tag button button_translucent'>vra
+  <a href = 'https:///yanivno.github.io/tags/vra' class = 'post_tag button button_translucent'>vra
   </a>
-  <a href = 'tags/vro' class = 'post_tag button button_translucent'>vro
+  <a href = 'https:///yanivno.github.io/tags/vro' class = 'post_tag button button_translucent'>vro
   </a>
 </div>
 
     <div class='post_share'>
   Share on:
-  <a href="https://twitter.com/intent/tweet?text=Encrypted%20vRA%20custom%20properties%20with%20vRO%20%e2%80%93%20Part%20I&url=%2f2016%2f08%2f13%2fencrypted-vra-custom-properties-fun-with-vro-part-i%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+  <a href="https://twitter.com/intent/tweet?text=Encrypted%20vRA%20custom%20properties%20with%20vRO%20%e2%80%93%20Part%20I&url=https%3a%2f%2f%2fyanivno.github.io%2f2016%2f08%2f13%2fencrypted-vra-custom-properties-fun-with-vro-part-i%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
     <svg class="icon">
       <use xlink:href="#twitter"></use>
     </svg>
   </a>
   
-  <a href="https://www.facebook.com/sharer.php?u=%2f2016%2f08%2f13%2fencrypted-vra-custom-properties-fun-with-vro-part-i%2f&t=Encrypted%20vRA%20custom%20properties%20with%20vRO%20%e2%80%93%20Part%20I" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+  <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2f%2fyanivno.github.io%2f2016%2f08%2f13%2fencrypted-vra-custom-properties-fun-with-vro-part-i%2f&t=Encrypted%20vRA%20custom%20properties%20with%20vRO%20%e2%80%93%20Part%20I" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
     <svg class="icon">
       <use xlink:href="#facebook"></use>
     </svg>
   </a>
   <script>
     function shareViaLinkedin() {
-      window.open('http://www.linkedin.com/shareArticle?mini=true&url='+encodeURIComponent("/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/"), '', 'left=0,top=0,width=650,height=420,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
+      window.open('http://www.linkedin.com/shareArticle?mini=true&url='+encodeURIComponent("https:///yanivno.github.io/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/"), '', 'left=0,top=0,width=650,height=420,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
     }
   </script>
   <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow" onclick="shareViaLinkedin()">
@@ -146,7 +146,7 @@ To be able to automate application installation in vRO, while database connecti
       <use xlink:href="#linkedin"></use>
     </svg>
   </a>
-  <a href="/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/" title="Copy Link" class="link link_yank">
+  <a href="https:///yanivno.github.io/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/" title="Copy Link" class="link link_yank">
     <svg class="icon">
       <use xlink:href="#yank"></use>
     </svg>
@@ -228,7 +228,7 @@ Output : Plain Text</p>
     <div>
       
     </div>
-    <a href = 'about/' class="button mt-1" role="button">Read More</a>
+    <a href = 'https:///yanivno.github.io/about/' class="button mt-1" role="button">Read More</a>
     <h2 class="mt-4">Featured Posts</h2>
     <ul>
     
@@ -237,16 +237,16 @@ Output : Plain Text</p>
     <ul class="flex-column">
       
       <li>
-        <a href="/2020/01/14/configuring-dns-search-path-for-enterprise-pks-kubernetes-clusters/" class="nav-link">Configuring DNS search path for Enterprise PKS Kubernetes Clusters</a>
+        <a href="https:///yanivno.github.io/2020/01/14/configuring-dns-search-path-for-enterprise-pks-kubernetes-clusters/" class="nav-link">Configuring DNS search path for Enterprise PKS Kubernetes Clusters</a>
       </li>
       <li>
-        <a href="/2019/12/12/implementing-app-isolation-in-vra-8-cloud-assembly-blueprint/" class="nav-link">Implementing App Isolation in vRA 8 Cloud Assembly Blueprint</a>
+        <a href="https:///yanivno.github.io/2019/12/12/implementing-app-isolation-in-vra-8-cloud-assembly-blueprint/" class="nav-link">Implementing App Isolation in vRA 8 Cloud Assembly Blueprint</a>
       </li>
       <li>
-        <a href="/2017/01/09/vrealize-production-test-tool-1-6-0-fails-license-check-for-vra-7-1-and-up/" class="nav-link">vRealize Production test tool 1.6.0 fails license check for vRA 7.1 and up</a>
+        <a href="https:///yanivno.github.io/2017/01/09/vrealize-production-test-tool-1-6-0-fails-license-check-for-vra-7-1-and-up/" class="nav-link">vRealize Production test tool 1.6.0 fails license check for vRA 7.1 and up</a>
       </li>
       <li>
-        <a href="/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/" class="nav-link">vRO Logging Day-2 Operations with Event Log EBS topic</a>
+        <a href="https:///yanivno.github.io/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/" class="nav-link">vRO Logging Day-2 Operations with Event Log EBS topic</a>
       </li>
     </ul> 
     
@@ -254,17 +254,17 @@ Output : Plain Text</p>
       <h2 class="mt-4 taxonomy" id="categories-section">categories</h2>
       <nav class="tags_nav">
         
-        <a href='categories/vrealize-automation/' class=" post_tag button button_translucent">
+        <a href='https:///yanivno.github.io/categories/vrealize-automation/' class=" post_tag button button_translucent">
           VREALIZE-AUTOMATION
           <span class='button_tally'>4</span>
         </a>
         
-        <a href='categories/vrealize-orchestrator/' class=" post_tag button button_translucent">
+        <a href='https:///yanivno.github.io/categories/vrealize-orchestrator/' class=" post_tag button button_translucent">
           VREALIZE-ORCHESTRATOR
           <span class='button_tally'>2</span>
         </a>
         
-        <a href='categories/8.x/' class=" post_tag button button_translucent">
+        <a href='https:///yanivno.github.io/categories/8.x/' class=" post_tag button button_translucent">
           8.X
           <span class='button_tally'>1</span>
         </a>
@@ -276,23 +276,23 @@ Output : Plain Text</p>
         <div class="post_tags">
           <div class="tags_list">
             
-            <a href='categories/8.x/' class=" post_tag button button_translucent" data-position=1>8.X<span class='button_tally'>1</span>
+            <a href='https:///yanivno.github.io/categories/8.x/' class=" post_tag button button_translucent" data-position=1>8.X<span class='button_tally'>1</span>
             </a>
             
             
-            <a href='categories/enterprise-pks/' class=" post_tag button button_translucent" data-position=1>ENTERPRISE-PKS<span class='button_tally'>1</span>
+            <a href='https:///yanivno.github.io/categories/enterprise-pks/' class=" post_tag button button_translucent" data-position=1>ENTERPRISE-PKS<span class='button_tally'>1</span>
             </a>
             
             
-            <a href='categories/java/' class=" post_tag button button_translucent" data-position=1>JAVA<span class='button_tally'>1</span>
+            <a href='https:///yanivno.github.io/categories/java/' class=" post_tag button button_translucent" data-position=1>JAVA<span class='button_tally'>1</span>
             </a>
             
             
-            <a href='categories/vrealize-automation/' class=" post_tag button button_translucent" data-position=4>VREALIZE-AUTOMATION<span class='button_tally'>4</span>
+            <a href='https:///yanivno.github.io/categories/vrealize-automation/' class=" post_tag button button_translucent" data-position=4>VREALIZE-AUTOMATION<span class='button_tally'>4</span>
             </a>
             
             
-            <a href='categories/vrealize-orchestrator/' class=" post_tag button button_translucent" data-position=2>VREALIZE-ORCHESTRATOR<span class='button_tally'>2</span>
+            <a href='https:///yanivno.github.io/categories/vrealize-orchestrator/' class=" post_tag button button_translucent" data-position=2>VREALIZE-ORCHESTRATOR<span class='button_tally'>2</span>
             </a>
             
             <div class="tags_sort"><span title="sort alphabetically">[A~Z]</span><span title="sort by count">[0~9]</span>
@@ -310,17 +310,17 @@ Output : Plain Text</p>
       <h2 class="mt-4 taxonomy" id="tags-section">tags</h2>
       <nav class="tags_nav">
         
-        <a href='tags/vra/' class=" post_tag button button_translucent">
+        <a href='https:///yanivno.github.io/tags/vra/' class=" post_tag button button_translucent">
           VRA
           <span class='button_tally'>4</span>
         </a>
         
-        <a href='tags/vro/' class=" post_tag button button_translucent">
+        <a href='https:///yanivno.github.io/tags/vro/' class=" post_tag button button_translucent">
           VRO
           <span class='button_tally'>2</span>
         </a>
         
-        <a href='tags/encryption/' class=" post_tag button button_translucent">
+        <a href='https:///yanivno.github.io/tags/encryption/' class=" post_tag button button_translucent">
           ENCRYPTION
           <span class='button_tally'>1</span>
         </a>
@@ -332,39 +332,39 @@ Output : Plain Text</p>
         <div class="post_tags">
           <div class="tags_list">
             
-            <a href='tags/encryption/' class=" post_tag button button_translucent" data-position=1>ENCRYPTION<span class='button_tally'>1</span>
+            <a href='https:///yanivno.github.io/tags/encryption/' class=" post_tag button button_translucent" data-position=1>ENCRYPTION<span class='button_tally'>1</span>
             </a>
             
             
-            <a href='tags/enterprise-pks/' class=" post_tag button button_translucent" data-position=1>ENTERPRISE-PKS<span class='button_tally'>1</span>
+            <a href='https:///yanivno.github.io/tags/enterprise-pks/' class=" post_tag button button_translucent" data-position=1>ENTERPRISE-PKS<span class='button_tally'>1</span>
             </a>
             
             
-            <a href='tags/java/' class=" post_tag button button_translucent" data-position=1>JAVA<span class='button_tally'>1</span>
+            <a href='https:///yanivno.github.io/tags/java/' class=" post_tag button button_translucent" data-position=1>JAVA<span class='button_tally'>1</span>
             </a>
             
             
-            <a href='tags/k8s/' class=" post_tag button button_translucent" data-position=1>K8S<span class='button_tally'>1</span>
+            <a href='https:///yanivno.github.io/tags/k8s/' class=" post_tag button button_translucent" data-position=1>K8S<span class='button_tally'>1</span>
             </a>
             
             
-            <a href='tags/log/' class=" post_tag button button_translucent" data-position=1>LOG<span class='button_tally'>1</span>
+            <a href='https:///yanivno.github.io/tags/log/' class=" post_tag button button_translucent" data-position=1>LOG<span class='button_tally'>1</span>
             </a>
             
             
-            <a href='tags/tkgi/' class=" post_tag button button_translucent" data-position=1>TKGI<span class='button_tally'>1</span>
+            <a href='https:///yanivno.github.io/tags/tkgi/' class=" post_tag button button_translucent" data-position=1>TKGI<span class='button_tally'>1</span>
             </a>
             
             
-            <a href='tags/vra/' class=" post_tag button button_translucent" data-position=4>VRA<span class='button_tally'>4</span>
+            <a href='https:///yanivno.github.io/tags/vra/' class=" post_tag button button_translucent" data-position=4>VRA<span class='button_tally'>4</span>
             </a>
             
             
-            <a href='tags/vro/' class=" post_tag button button_translucent" data-position=2>VRO<span class='button_tally'>2</span>
+            <a href='https:///yanivno.github.io/tags/vro/' class=" post_tag button button_translucent" data-position=2>VRO<span class='button_tally'>2</span>
             </a>
             
             
-            <a href='tags/vrpt/' class=" post_tag button button_translucent" data-position=1>VRPT<span class='button_tally'>1</span>
+            <a href='https:///yanivno.github.io/tags/vrpt/' class=" post_tag button button_translucent" data-position=1>VRPT<span class='button_tally'>1</span>
             </a>
             
             <div class="tags_sort"><span title="sort alphabetically">[A~Z]</span><span title="sort by count">[0~9]</span>
@@ -446,7 +446,7 @@ Output : Plain Text</p>
 </svg>
 <footer class = 'footer'>
   <div class = 'footer_inner wrap pale'>
-    <img src = 'icons/apple-touch-icon.png' class = 'icon icon_2 transparent'>
+    <img src = 'https:///yanivno.github.io/icons/apple-touch-icon.png' class = 'icon icon_2 transparent'>
     <p>Copyright &copy;&nbsp;<span class = 'year'></span>&nbsp;PARSINGWINGS. All Rights Reserved</p>
 <a class='to_top' href="#documentTop">
   <svg class="icon">
@@ -456,7 +456,7 @@ Output : Plain Text</p>
 
   </div>
 </footer>
-    <script type="text/javascript" src = "/js/bundle.c271c92bb008247d7cc2135f44c09741cdb75a5d056d1d311fe3e36dc6544e987efe6e50d8220918d7ace7cc53430a2442e1a6e5d5afd4a7aa33d90ca171f4e2.js" integrity=
-    "sha512-wnHJK7AIJH18whNfRMCXQc23Wl0FbR0xH&#43;PjbcZUTph&#43;/m5Q2CIJGNes58xTQwokQuGm5dWv1KeqM9kMoXH04g==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src = "https://yanivno.github.io/js/bundle.81d3d9ba5a37bf29c0682aed1a0e5b84f7f74883ac49632ed235343a931d35a16190692a86cf8c104d8a4614eefafa57acd2e1bbb5329cb1b09d3b37689b8bf2.js" integrity=
+    "sha512-gdPZulo3vynAaCrtGg5bhPf3SIOsSWMu0jU0OpMdNaFhkGkqhs&#43;MEE2KRhTu&#43;vpXrNLhu7UynLGwnTs3aJuL8g==" crossorigin="anonymous"></script>
   </body>
 </html>

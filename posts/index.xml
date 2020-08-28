@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ParsingWings</title>
-    <link>/posts/</link>
+    <link>https:///yanivno.github.io/posts/</link>
     <description>Recent content in Posts on ParsingWings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Jan 2020 15:48:44 +0000</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https:///yanivno.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Configuring DNS search path for Enterprise PKS Kubernetes Clusters</title>
-      <link>/2020/01/14/configuring-dns-search-path-for-enterprise-pks-kubernetes-clusters/</link>
+      <link>https:///yanivno.github.io/2020/01/14/configuring-dns-search-path-for-enterprise-pks-kubernetes-clusters/</link>
       <pubDate>Tue, 14 Jan 2020 15:48:44 +0000</pubDate>
       
-      <guid>/2020/01/14/configuring-dns-search-path-for-enterprise-pks-kubernetes-clusters/</guid>
+      <guid>https:///yanivno.github.io/2020/01/14/configuring-dns-search-path-for-enterprise-pks-kubernetes-clusters/</guid>
       <description>Often, applications running in Kubernetes requires access to external services to function properly, it could be databases, Identity services (SSO), backend applications running on Virtual Machines, etc.
 When accessing external corporate services or internet services – using DNS names, with current Enterprise PKS configuration, BOSH does not configure search path to allow using short names. for instance, application in Kubernetes would like to access “mssql” service, assuming that corporate DNS is authoritative for “corp.</description>
     </item>
     
     <item>
       <title>Implementing App Isolation in vRA 8 Cloud Assembly Blueprint</title>
-      <link>/2019/12/12/implementing-app-isolation-in-vra-8-cloud-assembly-blueprint/</link>
+      <link>https:///yanivno.github.io/2019/12/12/implementing-app-isolation-in-vra-8-cloud-assembly-blueprint/</link>
       <pubDate>Thu, 12 Dec 2019 17:51:19 +0000</pubDate>
       
-      <guid>/2019/12/12/implementing-app-isolation-in-vra-8-cloud-assembly-blueprint/</guid>
+      <guid>https:///yanivno.github.io/2019/12/12/implementing-app-isolation-in-vra-8-cloud-assembly-blueprint/</guid>
       <description>I will start by saying that as of today (12/12/2019), this process is not yet documented, however it is working as expected.
 Using vRealize Automation 7.x, you might have used App Isolation checkbox in the blueprint settings screen in-order to have a bubble environment (Documentation Link) with outbound connection to corporate network, with you could add DFW rules in NSX to specific destination. In vRealize Automation 8.0 it is gone.</description>
     </item>
     
     <item>
       <title>vRealize Production test tool 1.6.0 fails license check for vRA 7.1 and up</title>
-      <link>/2017/01/09/vrealize-production-test-tool-1-6-0-fails-license-check-for-vra-7-1-and-up/</link>
+      <link>https:///yanivno.github.io/2017/01/09/vrealize-production-test-tool-1-6-0-fails-license-check-for-vra-7-1-and-up/</link>
       <pubDate>Mon, 09 Jan 2017 19:47:15 +0000</pubDate>
       
-      <guid>/2017/01/09/vrealize-production-test-tool-1-6-0-fails-license-check-for-vra-7-1-and-up/</guid>
+      <guid>https:///yanivno.github.io/2017/01/09/vrealize-production-test-tool-1-6-0-fails-license-check-for-vra-7-1-and-up/</guid>
       <description>Recently at a customer site, whom heavily uses this tool to monitor his environment, since upgrading his vRA 7.0.1 Production system to vRA 7.1, Licensing checks were failing (as illustrated in the image)
 Looking at the logs we did identify an error with licensing check :
 INFO 2016-12-21 09:03:35.489 (LoggingTestListener .onTestStart : 23) Executing test 63/76 ERROR 2016-12-21 09:03:40.349 (AMIClientServiceImpl.getLicenses : 236) com.fasterxml.jackson.databind.JsonMappingException: Can not deserialize instance of com.vmware.vrealize.readiness.vra.model.vami.License[] out of VALUE_NUMBER_INT token at [Source: 21 Dec 2016 09:03:39,005 [com.</description>
@@ -44,10 +44,10 @@ INFO 2016-12-21 09:03:35.489 (LoggingTestListener .onTestStart : 23) Executin
     
     <item>
       <title>vRO Logging Day-2 Operations with Event Log EBS topic</title>
-      <link>/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</link>
+      <link>https:///yanivno.github.io/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</link>
       <pubDate>Tue, 23 Aug 2016 19:00:47 +0000</pubDate>
       
-      <guid>/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</guid>
+      <guid>https:///yanivno.github.io/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</guid>
       <description>vRA 7.x EBS is awesome !
 While writing code, one should aspire to be as generic as possible, with simplicity being a key value – since it is not always possible to provide both simultaneously. this principal will meet us coders over-and-over. remember – Keep It Simple, Stupid! (or otherwise, KISS)
 Sticking to this principle, I was trying to think about a generic way to log Day-2 operations in vRA, without being too specific to a type of request or setting up many EBS subscriptions for this customer request.</description>
@@ -55,10 +55,10 @@ Sticking to this principle, I was trying to think about a generic way to log Day
     
     <item>
       <title>Encrypted vRA custom properties with vRO – Part I</title>
-      <link>/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</link>
+      <link>https:///yanivno.github.io/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</link>
       <pubDate>Sat, 13 Aug 2016 16:35:02 +0000</pubDate>
       
-      <guid>/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</guid>
+      <guid>https:///yanivno.github.io/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</guid>
       <description>Recently I came across an Interesting customer request,
 To be able to automate application installation in vRO, while database connection details will be provided by the end-user.
 This being a production system, the requirement was to encrypt details, end-to-end.

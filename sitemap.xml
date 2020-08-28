@@ -3,137 +3,137 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https:///yanivno.github.io/categories/</loc>
     <lastmod>2020-01-14T15:48:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2020/01/14/configuring-dns-search-path-for-enterprise-pks-kubernetes-clusters/</loc>
+    <loc>https:///yanivno.github.io/2020/01/14/configuring-dns-search-path-for-enterprise-pks-kubernetes-clusters/</loc>
     <lastmod>2020-01-14T15:48:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/enterprise-pks/</loc>
+    <loc>https:///yanivno.github.io/categories/enterprise-pks/</loc>
     <lastmod>2020-01-14T15:48:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/enterprise-pks/</loc>
+    <loc>https:///yanivno.github.io/tags/enterprise-pks/</loc>
     <lastmod>2020-01-14T15:48:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/k8s/</loc>
+    <loc>https:///yanivno.github.io/tags/k8s/</loc>
     <lastmod>2020-01-14T15:48:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https:///yanivno.github.io/</loc>
     <lastmod>2020-01-14T15:48:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>https:///yanivno.github.io/posts/</loc>
     <lastmod>2020-01-14T15:48:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https:///yanivno.github.io/tags/</loc>
     <lastmod>2020-01-14T15:48:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/tkgi/</loc>
+    <loc>https:///yanivno.github.io/tags/tkgi/</loc>
     <lastmod>2020-01-14T15:48:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/8.x/</loc>
+    <loc>https:///yanivno.github.io/categories/8.x/</loc>
     <lastmod>2019-12-12T17:51:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2019/12/12/implementing-app-isolation-in-vra-8-cloud-assembly-blueprint/</loc>
+    <loc>https:///yanivno.github.io/2019/12/12/implementing-app-isolation-in-vra-8-cloud-assembly-blueprint/</loc>
     <lastmod>2019-12-12T17:51:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/vra/</loc>
+    <loc>https:///yanivno.github.io/tags/vra/</loc>
     <lastmod>2019-12-12T17:51:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/vrealize-automation/</loc>
+    <loc>https:///yanivno.github.io/categories/vrealize-automation/</loc>
     <lastmod>2019-12-12T17:51:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/java/</loc>
+    <loc>https:///yanivno.github.io/categories/java/</loc>
     <lastmod>2017-01-09T19:47:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/java/</loc>
+    <loc>https:///yanivno.github.io/tags/java/</loc>
     <lastmod>2017-01-09T19:47:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2017/01/09/vrealize-production-test-tool-1-6-0-fails-license-check-for-vra-7-1-and-up/</loc>
+    <loc>https:///yanivno.github.io/2017/01/09/vrealize-production-test-tool-1-6-0-fails-license-check-for-vra-7-1-and-up/</loc>
     <lastmod>2017-01-09T19:47:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/vrpt/</loc>
+    <loc>https:///yanivno.github.io/tags/vrpt/</loc>
     <lastmod>2017-01-09T19:47:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/log/</loc>
+    <loc>https:///yanivno.github.io/tags/log/</loc>
     <lastmod>2016-08-23T19:00:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/vrealize-orchestrator/</loc>
+    <loc>https:///yanivno.github.io/categories/vrealize-orchestrator/</loc>
     <lastmod>2016-08-23T19:00:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/vro/</loc>
+    <loc>https:///yanivno.github.io/tags/vro/</loc>
     <lastmod>2016-08-23T19:00:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</loc>
+    <loc>https:///yanivno.github.io/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</loc>
     <lastmod>2016-08-23T19:00:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</loc>
+    <loc>https:///yanivno.github.io/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</loc>
     <lastmod>2016-08-13T16:35:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/encryption/</loc>
+    <loc>https:///yanivno.github.io/tags/encryption/</loc>
     <lastmod>2016-08-13T16:35:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https:///yanivno.github.io/about/</loc>
     <lastmod>2016-08-12T11:14:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/home/</loc>
+    <loc>https:///yanivno.github.io/home/</loc>
     <lastmod>2016-08-12T10:32:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/contact-us/</loc>
+    <loc>https:///yanivno.github.io/contact-us/</loc>
     <lastmod>2016-07-02T17:09:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/sample-page/</loc>
+    <loc>https:///yanivno.github.io/sample-page/</loc>
     <lastmod>2016-07-02T17:04:58+00:00</lastmod>
   </url>
   

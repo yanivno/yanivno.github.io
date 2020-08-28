@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>encryption on ParsingWings</title>
-    <link>/tags/encryption/</link>
+    <link>https:///yanivno.github.io/tags/encryption/</link>
     <description>Recent content in encryption on ParsingWings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 13 Aug 2016 16:35:02 +0000</lastBuildDate>
     
-	<atom:link href="/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https:///yanivno.github.io/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Encrypted vRA custom properties with vRO – Part I</title>
-      <link>/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</link>
+      <link>https:///yanivno.github.io/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</link>
       <pubDate>Sat, 13 Aug 2016 16:35:02 +0000</pubDate>
       
-      <guid>/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</guid>
+      <guid>https:///yanivno.github.io/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</guid>
       <description>Recently I came across an Interesting customer request,
 To be able to automate application installation in vRO, while database connection details will be provided by the end-user.
 This being a production system, the requirement was to encrypt details, end-to-end.

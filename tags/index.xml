@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ParsingWings</title>
-    <link>/tags/</link>
+    <link>https:///yanivno.github.io/tags/</link>
     <description>Recent content in Tags on ParsingWings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Jan 2020 15:48:44 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https:///yanivno.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>enterprise pks</title>
-      <link>/tags/enterprise-pks/</link>
+      <link>https:///yanivno.github.io/tags/enterprise-pks/</link>
       <pubDate>Tue, 14 Jan 2020 15:48:44 +0000</pubDate>
       
-      <guid>/tags/enterprise-pks/</guid>
+      <guid>https:///yanivno.github.io/tags/enterprise-pks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>k8s</title>
-      <link>/tags/k8s/</link>
+      <link>https:///yanivno.github.io/tags/k8s/</link>
       <pubDate>Tue, 14 Jan 2020 15:48:44 +0000</pubDate>
       
-      <guid>/tags/k8s/</guid>
+      <guid>https:///yanivno.github.io/tags/k8s/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tkgi</title>
-      <link>/tags/tkgi/</link>
+      <link>https:///yanivno.github.io/tags/tkgi/</link>
       <pubDate>Tue, 14 Jan 2020 15:48:44 +0000</pubDate>
       
-      <guid>/tags/tkgi/</guid>
+      <guid>https:///yanivno.github.io/tags/tkgi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vra</title>
-      <link>/tags/vra/</link>
+      <link>https:///yanivno.github.io/tags/vra/</link>
       <pubDate>Thu, 12 Dec 2019 17:51:19 +0000</pubDate>
       
-      <guid>/tags/vra/</guid>
+      <guid>https:///yanivno.github.io/tags/vra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java</title>
-      <link>/tags/java/</link>
+      <link>https:///yanivno.github.io/tags/java/</link>
       <pubDate>Mon, 09 Jan 2017 19:47:15 +0000</pubDate>
       
-      <guid>/tags/java/</guid>
+      <guid>https:///yanivno.github.io/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vrpt</title>
-      <link>/tags/vrpt/</link>
+      <link>https:///yanivno.github.io/tags/vrpt/</link>
       <pubDate>Mon, 09 Jan 2017 19:47:15 +0000</pubDate>
       
-      <guid>/tags/vrpt/</guid>
+      <guid>https:///yanivno.github.io/tags/vrpt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>log</title>
-      <link>/tags/log/</link>
+      <link>https:///yanivno.github.io/tags/log/</link>
       <pubDate>Tue, 23 Aug 2016 19:00:47 +0000</pubDate>
       
-      <guid>/tags/log/</guid>
+      <guid>https:///yanivno.github.io/tags/log/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vro</title>
-      <link>/tags/vro/</link>
+      <link>https:///yanivno.github.io/tags/vro/</link>
       <pubDate>Tue, 23 Aug 2016 19:00:47 +0000</pubDate>
       
-      <guid>/tags/vro/</guid>
+      <guid>https:///yanivno.github.io/tags/vro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>encryption</title>
-      <link>/tags/encryption/</link>
+      <link>https:///yanivno.github.io/tags/encryption/</link>
       <pubDate>Sat, 13 Aug 2016 16:35:02 +0000</pubDate>
       
-      <guid>/tags/encryption/</guid>
+      <guid>https:///yanivno.github.io/tags/encryption/</guid>
       <description></description>
     </item>
     
