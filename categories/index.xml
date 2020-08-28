@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ParsingWings</title>
-    <link>https:///yanivno.github.io/categories/</link>
+    <link>https://yanivnorman.com/categories/</link>
     <description>Recent content in Categories on ParsingWings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Jan 2020 15:48:44 +0000</lastBuildDate>
     
-	<atom:link href="https:///yanivno.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yanivnorman.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Enterprise PKS</title>
-      <link>https:///yanivno.github.io/categories/enterprise-pks/</link>
+      <link>https://yanivnorman.com/categories/enterprise-pks/</link>
       <pubDate>Tue, 14 Jan 2020 15:48:44 +0000</pubDate>
       
-      <guid>https:///yanivno.github.io/categories/enterprise-pks/</guid>
+      <guid>https://yanivnorman.com/categories/enterprise-pks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>8.x</title>
-      <link>https:///yanivno.github.io/categories/8.x/</link>
+      <link>https://yanivnorman.com/categories/8.x/</link>
       <pubDate>Thu, 12 Dec 2019 17:51:19 +0000</pubDate>
       
-      <guid>https:///yanivno.github.io/categories/8.x/</guid>
+      <guid>https://yanivnorman.com/categories/8.x/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vRealize Automation</title>
-      <link>https:///yanivno.github.io/categories/vrealize-automation/</link>
+      <link>https://yanivnorman.com/categories/vrealize-automation/</link>
       <pubDate>Thu, 12 Dec 2019 17:51:19 +0000</pubDate>
       
-      <guid>https:///yanivno.github.io/categories/vrealize-automation/</guid>
+      <guid>https://yanivnorman.com/categories/vrealize-automation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>https:///yanivno.github.io/categories/java/</link>
+      <link>https://yanivnorman.com/categories/java/</link>
       <pubDate>Mon, 09 Jan 2017 19:47:15 +0000</pubDate>
       
-      <guid>https:///yanivno.github.io/categories/java/</guid>
+      <guid>https://yanivnorman.com/categories/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vRealize Orchestrator</title>
-      <link>https:///yanivno.github.io/categories/vrealize-orchestrator/</link>
+      <link>https://yanivnorman.com/categories/vrealize-orchestrator/</link>
       <pubDate>Tue, 23 Aug 2016 19:00:47 +0000</pubDate>
       
-      <guid>https:///yanivno.github.io/categories/vrealize-orchestrator/</guid>
+      <guid>https://yanivnorman.com/categories/vrealize-orchestrator/</guid>
       <description></description>
     </item>
     

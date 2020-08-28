@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vRealize Orchestrator on ParsingWings</title>
-    <link>https:///yanivno.github.io/categories/vrealize-orchestrator/</link>
+    <link>https://yanivnorman.com/categories/vrealize-orchestrator/</link>
     <description>Recent content in vRealize Orchestrator on ParsingWings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Aug 2016 19:00:47 +0000</lastBuildDate>
     
-	<atom:link href="https:///yanivno.github.io/categories/vrealize-orchestrator/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yanivnorman.com/categories/vrealize-orchestrator/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>vRO Logging Day-2 Operations with Event Log EBS topic</title>
-      <link>https:///yanivno.github.io/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</link>
+      <link>https://yanivnorman.com/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</link>
       <pubDate>Tue, 23 Aug 2016 19:00:47 +0000</pubDate>
       
-      <guid>https:///yanivno.github.io/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</guid>
+      <guid>https://yanivnorman.com/2016/08/23/vro-logging-day-2-operations-with-event-log-ebs-topic/</guid>
       <description>vRA 7.x EBS is awesome !
 While writing code, one should aspire to be as generic as possible, with simplicity being a key value – since it is not always possible to provide both simultaneously. this principal will meet us coders over-and-over. remember – Keep It Simple, Stupid! (or otherwise, KISS)
 Sticking to this principle, I was trying to think about a generic way to log Day-2 operations in vRA, without being too specific to a type of request or setting up many EBS subscriptions for this customer request.</description>
@@ -24,10 +24,10 @@ Sticking to this principle, I was trying to think about a generic way to log Day
     
     <item>
       <title>Encrypted vRA custom properties with vRO – Part I</title>
-      <link>https:///yanivno.github.io/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</link>
+      <link>https://yanivnorman.com/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</link>
       <pubDate>Sat, 13 Aug 2016 16:35:02 +0000</pubDate>
       
-      <guid>https:///yanivno.github.io/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</guid>
+      <guid>https://yanivnorman.com/2016/08/13/encrypted-vra-custom-properties-fun-with-vro-part-i/</guid>
       <description>Recently I came across an Interesting customer request,
 To be able to automate application installation in vRO, while database connection details will be provided by the end-user.
 This being a production system, the requirement was to encrypt details, end-to-end.
